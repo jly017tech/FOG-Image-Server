@@ -1,5 +1,3 @@
-<h1>Fog-Image-Server</h1>
-
 
 <h1>Ubuntu FOG Server </h1>
 
