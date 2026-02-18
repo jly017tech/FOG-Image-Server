@@ -30,16 +30,21 @@ I download the Ubuntu ISO file from the official website and already checkced it
 
 
 
-<p></p>Ubuntu FOG server has to be part of HuskyTech.local because I want HuskyTech.local DC handle IP addresses abd give IP address to a new virtual machine</p>
+<p>
+  
+Ubuntu FOG server has to be part of HuskyTech.local because I want HuskyTech.local DC handle IP addresses abd give IP address to a new virtual machine.
+
+I use command   sudo systemctl restart winbind and wbinfo -u to get the list of users from the HuskyTech.local (Domain Controller VM)
+
+</p>
 
 <h2>FOG Installation Setup: </h2>
-
+ 
 
 <p>I download from the official github where FOG developers update their main branch where is the most recommend to download the folder.
 After downloading the folder, I went ahead execute the installfog.sh and follow each questions carefully. This took me 30 minutes setting up and installing all the 
 necessary packages such as SSSD and Realm and changes some IP addresses and hostanme in the configuration.
 
-I use command   sudo systemctl restart winbind and wbinfo -u to get the list of users from the HuskyTech.local (Domain Controller VM)
 </p>
 
 <p> Version: 1.5.10.1763 Installer/Updater
@@ -94,6 +99,18 @@ I use command   sudo systemctl restart winbind and wbinfo -u to get the list of 
   has some implications within FOG, PXE and fog-client and you want
   to read https://wiki.fogproject.org/HTTPS before you decide!
   Would you like to enable secure HTTPS on your FOG server? [y/N] N
+
+
+  | current DHCP server to use FOG for PXE services.
+
+ * On a Linux DHCP server you must set: next-server and filename
+
+ * On a Windows DHCP server you must set options 066 and 067
+
+ * Option 066/next-server is the IP of the FOG Server: (e.g. 10.0.2.20)
+ * Option 067/filename is the bootfile: (e.g. undionly.kkpxe or snponly.efi)
+ * Send OS Name, OS Version, and FOG Version: No
+
 
   Which hostname would you like to use? Currently is: FOGSERVER
   Note: This hostname will be in the certificate we generate for your
