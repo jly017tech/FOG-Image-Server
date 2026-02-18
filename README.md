@@ -19,11 +19,16 @@ Windows Server DC - HuskyTech.local and using HuskyTech.local server to capture 
 
 <h2>Adding Ubuntu FOG Server to the HuskyTech.Local</h2>
 
+
 <img width="1603" height="862" alt="image" src="https://github.com/user-attachments/assets/0f87d9c7-464c-4493-bc1d-94156a2ab95e" />
 
-<h1>Ubuntu FOG server has to be part of HuskyTech.local because I want HuskyTech.local DC handle IP addresses abd give IP address to a new virtual machine.</h1>
+
+
+<p></p>Ubuntu FOG server has to be part of HuskyTech.local because I want HuskyTech.local DC handle IP addresses abd give IP address to a new virtual machine</p>
 
 <h2>FOG Installation Setup: </h2>
+
+
 <p>I download from the official github where FOG developers update their main branch where is the most recommend to download the folder.
 After downloading the folder, I went ahead execute the installfog.sh and follow each questions carefully</p>
 
