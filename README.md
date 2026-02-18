@@ -16,6 +16,12 @@ Windows Server DC - HuskyTech.local and using HuskyTech.local server to capture 
 
 <img width="1573" height="822" alt="Screenshot from 2026-02-18 10-44-58" src="https://github.com/user-attachments/assets/d747ac4a-1030-40d1-aa73-695449e55068" />
 
+<p>
+
+I download the Ubuntu ISO file from the official website and already checkced its integrity hasn't modfiy with SUM256.
+  
+</p>
+
 
 <h2>Adding Ubuntu FOG Server to the HuskyTech.Local</h2>
 
