@@ -10,6 +10,8 @@
 Windows Server DC - HuskyTech.local and using HuskyTech.local server to capture the image and upload to the FOG server I setup.</p>
 
 
+<h2>Creating Ubuntu VM with Oracle Virtualbox</h2>
+
 
 <h2>Adding Ubuntu FOG Server to the HuskyTech.Local</h2>
 <img width="1603" height="862" alt="image" src="https://github.com/user-attachments/assets/0f87d9c7-464c-4493-bc1d-94156a2ab95e" />
