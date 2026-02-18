@@ -90,18 +90,11 @@ After downloading the folder, I went ahead execute the installfog.sh and follow 
 </p>
 
 
-<ul>
-  <li></li>
-</ul>
 
 
 
 
-
-
-
-
-
+<h2>FOG Server Configuration Changes</h2>
 <ul>
   <li>General settings -> FOG_WOL_Host</li>
   <li>TFTP Server -> Change FOG_TFTP_HOST and FOG_PXE_IMAGE_DNSAddress </li>
