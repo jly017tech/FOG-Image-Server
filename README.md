@@ -30,7 +30,11 @@ Windows Server DC - HuskyTech.local and using HuskyTech.local server to capture 
 
 
 <p>I download from the official github where FOG developers update their main branch where is the most recommend to download the folder.
-After downloading the folder, I went ahead execute the installfog.sh and follow each questions carefully</p>
+After downloading the folder, I went ahead execute the installfog.sh and follow each questions carefully. This took me 30 minutes setting up and installing all the 
+necessary packages such as SSSD and Realm and changes some IP addresses and hostanme in the configuration.
+
+I use command   sudo systemctl restart winbind and wbinfo -u to get the list of users from the HuskyTech.local (Domain Controller VM)
+</p>
 
 <p> Version: 1.5.10.1763 Installer/Updater
 
