@@ -12,9 +12,13 @@ Windows Server DC - HuskyTech.local and using HuskyTech.local server to capture 
 
 <h2>Creating Ubuntu VM with Oracle Virtualbox</h2>
 
+<img width="1573" height="822" alt="Screenshot from 2026-02-18 10-44-58" src="https://github.com/user-attachments/assets/d747ac4a-1030-40d1-aa73-695449e55068" />
+
 
 <h2>Adding Ubuntu FOG Server to the HuskyTech.Local</h2>
+
 <img width="1603" height="862" alt="image" src="https://github.com/user-attachments/assets/0f87d9c7-464c-4493-bc1d-94156a2ab95e" />
+
 <h1>Ubuntu FOG server has to be part of HuskyTech.local because I want HuskyTech.local DC handle IP addresses abd give IP address to a new virtual machine.</h1>
 
 <h2>FOG Installation Setup: </h2>
