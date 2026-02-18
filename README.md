@@ -9,8 +9,9 @@
   FOG stands for Free Opensource ghost program allows anyone to capture image and deploy multiple segment at a same time.
   In this lab, I'm demonstrating how to capture the Windows 11 Client that I customize that has already install apps. I will configure FOG server network IP address to match with
 Windows Server DC - HuskyTech.local and using HuskyTech.local server to capture the image and upload to the FOG server I setup.</p>
+ </P>
 
-
+ 
 <h2>Creating Ubuntu VM with Oracle Virtualbox</h2>
 
 <img width="1573" height="822" alt="Screenshot from 2026-02-18 10-44-58" src="https://github.com/user-attachments/assets/d747ac4a-1030-40d1-aa73-695449e55068" />
