@@ -144,3 +144,7 @@ necessary packages such as SSSD and Realm and changes some IP addresses and host
   <li>Stirage Management -> Default Member -> IP Address</li>
   <li>cd /opt/fog/.fogsettings </li>
 </ul>
+
+
+<h2></h2>
+
