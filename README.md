@@ -154,14 +154,20 @@ necessary packages such as SSSD and Realm and changes some IP addresses and host
 
 
 <p>
-  After I finished installing FOG server on my Ubuntu virtual machine, I changed DHCP IP address in the FOG server so my Windows Server 2025 DHCP server picks up in the network and
-  lease the IP address and handle the rest when I reboot the Windows 11 Pro virutal machine that already been install and copying and uploading to the FOG server.
+After completing the installation of the FOG server on my Ubuntu virtual machine, I configured the network environment to integrate with my Windows Server 2025 DHCP server. Instead of allowing the FOG server to act as the DHCP provider, I updated the DHCP scope options on the Windows Server to include the appropriate PXE boot settings (such as next-server and boot file name). This ensured that client machines on the network could properly locate and communicate with the FOG server during the boot process. 
+
+When rebooting a Windows 11 Pro virtual machine that had already been configured and prepared for imaging, the system successfully obtained an IP address from the DHCP server and initiated a PXE boot sequence. This allowed the machine to connect to the FOG server, where I was able to register the host and begin the process of capturing and uploading the system image. This setup mirrors real-world enterprise environments where DHCP and deployment services are managed separately for better scalability and control.
 </p>
+
+
+<img width="1604" height="889" alt="Screenshot from 2026-02-18 12-27-42" src="https://github.com/user-attachments/assets/5167ff28-de36-4048-a874-abbe362656bb" />
+
 
 
 <h2>Copying and uploading to the third virtual machine</h2>
 
 <p>
-  Once FOG server completely got all the operating system from the Windows 11 Pro, I create another virutal machine which test as empty and
-  I use the boot file I create from the FOG server and clicked button to start copying and uploading to the empty virtual machine.
+After successfully capturing the Windows 11 Pro image to the FOG server, I created an additional virtual machine to simulate a new, unconfigured endpoint. This machine was set up with no operating system to replicate a real deployment scenario. Using the PXE boot environment provided by the FOG server, the new virtual machine connected to the network, retrieved the boot file, and displayed the FOG menu options.
+
+From there, I initiated a deployment task through the FOG web interface, assigning the previously captured image to the new virtual machine. Upon booting, the system automatically began the imaging process, copying the stored image from the FOG server to the target machine over the network. This process demonstrated my ability to perform full system deployments, including disk cloning, network-based provisioning, and automated OS installation. It also reinforced my troubleshooting skills by validating network connectivity, PXE configuration, and successful image transfer in a controlled lab environment.
 </p>
