@@ -145,6 +145,7 @@ necessary packages such as SSSD and Realm and changes some IP addresses and host
   <li>cd /opt/fog/.fogsettings </li>
 </ul>
 
+<br>
 
 <h2>Copying from the second virtual machine</h2>
 
