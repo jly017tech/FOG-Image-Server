@@ -167,7 +167,7 @@ When rebooting a Windows 11 Pro virtual machine that had already been configured
 <h2>Copying and uploading to the third virtual machine</h2>
 
 <p>
-After successfully capturing the Windows 11 Pro image to the FOG server, I created an additional virtual machine to simulate a new, unconfigured endpoint. This machine was set up with no operating system to replicate a real deployment scenario. Using the PXE boot environment provided by the FOG server, the new virtual machine connected to the network, retrieved the boot file, and displayed the FOG menu options.
+Once I successfully capturing the Windows 11 Pro image to the FOG server, I created an additional virtual machine to simulate a new, unconfigured endpoint. This machine was set up with no operating system to replicate a real deployment scenario. Using the PXE boot environment provided by the FOG server, the new virtual machine connected to the network, retrieved the boot file, and displayed the FOG menu options.
 
 From there, I initiated a deployment task through the FOG web interface, assigning the previously captured image to the new virtual machine. Upon booting, the system automatically began the imaging process, copying the stored image from the FOG server to the target machine over the network. This process demonstrated my ability to perform full system deployments, including disk cloning, network-based provisioning, and automated OS installation. It also reinforced my troubleshooting skills by validating network connectivity, PXE configuration, and successful image transfer in a controlled lab environment.
 </p>
