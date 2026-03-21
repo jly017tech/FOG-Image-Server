@@ -1,5 +1,5 @@
 
-<h1>Ubuntu FOG Server </h1>
+<h1 align="center">Ubuntu FOG Server </h1>
 
 
 <img width="1164" height="741" alt="IT-Homelab_ FOG Server (3)" src="https://github.com/user-attachments/assets/df64b55d-a323-4de6-85d4-219b6a3ab22f" />
